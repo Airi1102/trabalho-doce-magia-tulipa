@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: 'Sniglet', cursive;
+background-color: aliceblue;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+header{
+background-color: lightblue;
+padding: 20px;
+text-align: center;
+}
+
+.banner{
+text-align: center;
+padding: 30px;
+}
+
+.banner p{
+margin-top: 10px;
+}
+
+main{
+flex: 1;
+}
+
+.categorias{
+text-align: center;
+margin-top: 20px;
+}
+
+.cards{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+margin-top: 20px;
+}
+
+.card{
+width: 150px;
+padding: 20px;
+background-color: lightblue;
+border-radius: 12px;
+text-decoration: none;
+color: black;
+transition: 0.3s;
+}
+
+.card:hover{
+transform: scale(1.05);
+}
+
+.destaque{
+text-align: center;
+margin-top: 40px;
+}
+
+.box-destaque{
+margin-top: 15px;
+background-color: white;
+display: inline-block;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+footer{
+background-color: lightblue;
+text-align: center;
+padding: 20px;
+}

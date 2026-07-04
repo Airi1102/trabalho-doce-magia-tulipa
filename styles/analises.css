@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sniglet', cursive;
+    background-color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+main{
+    flex: 1;
+    padding: 30px;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.analises{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card-analise{
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-analise h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-analise ul{
+    list-style-position: inside;
+}
+
+.card-analise li{
+    margin: 10px 0;
+}
+
+.btn-voltar{
+    display: block;
+    width: 180px;
+    margin: 30px auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    margin: 5px 0;
+}
+
+@media (max-width: 768px){
+
+    .card-analise{
+        width: 90%;
+    }
+
+}
