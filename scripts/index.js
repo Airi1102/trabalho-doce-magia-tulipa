@@ -2,28 +2,28 @@ const bolos = [
 {
     nome: "Bolo de Chocolate",
     preco: 10,
-    imagem: "./img/img-bolochocolate.jpg",
+    imagem: "../img/bolo-de-chocolate.png",
     descricao: "Bolo caseiro de chocolate.",
     nota: "⭐ 4.9"
 },
 {
     nome: "Bolo de Cenoura",
     preco: 10,
-    imagem: "./img/bolo-de-cenoura.webp",
+    imagem: "../img/bolo-de-cenoura.png",
     descricao: "Bolo de cenoura com cobertura de chocolate.",
     nota: "⭐ 4.8"
 },
 {
     nome: "Bolo de Laranja",
     preco: 8,
-    imagem: "./img/bolo-de-laranja.jpg",
+    imagem: "../img/bolo-de-laranja.png",
     descricao: "Bolo leve de laranja.",
     nota: "⭐ 4.7"
 },
 {
     nome: "Bolo de Banana",
     preco: 8,
-    imagem: "./img/bolo-de-banana.jpg",
+    imagem: "../img/bolo-de-banana.png",
     descricao: "Bolo de banana com canela.",
     nota: "⭐ 4.6"
 }
